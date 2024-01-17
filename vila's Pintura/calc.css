@@ -21,10 +21,15 @@ header {
     background-color: rgba(91, 91, 90, 0.8);
 }
 
+.imgLogo{
+    width: 14%;
+   
+}
+
 ul,
 ol {
     list-style: none;
-    width: 50%;
+    width: 70%;
     height: 100%;
     display: flex;
     justify-content: space-around;
@@ -94,6 +99,7 @@ label{
     color: white;
     font-size: x-large;
     font-weight: 800;
+    text-align: center;
 }
 
 input{
@@ -126,4 +132,123 @@ button{
     font-weight: 700;
     border-radius: 5px;
     margin-top: 2vh;
+}
+
+.imgFooter{
+    width: 8%;
+  }
+
+  @media (max-width: 1080px) {
+    body {
+        padding: 0;
+        margin: 0;
+        background-image: url('./cinza-textura-de-marmore-palido.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+    
+      header {
+        height: 12vh;
+      }
+  
+      .divLogoHeader{
+          margin-left: 10vh;
+      }
+    
+      .imgLogo {
+        width: 32%;
+      }
+    
+      ul,
+      ol {
+        width: 90%;
+        font-size: smaller;
+      }
+
+      label{
+        font-size: large;
+        text-align: center;
+       
+    }
+
+    .imgFooter{
+        width: 12%;
+        margin-right: 2vh;
+            }
+
+  }
+
+@media (max-width: 480px) {
+
+    body {
+        padding: 0;
+        margin: 0;
+        background-image: url('./cinza-textura-de-marmore-palido.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+    
+      header {
+        height: 12vh;
+      }
+    
+      .divLogoHeader{
+        margin-left: 2vh;
+        width: 20%;
+    }
+
+      .imgLogo {
+        width: 100%;
+        
+      }
+    
+      ul,
+      ol {
+        width: 80%;
+        font-size: small;
+      }
+
+h1{
+    font-size: x-large;
+    display: flex;
+    text-align: center;
+}
+
+.containerInputs{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.divInputs{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: large;
+    text-align: center;
+}
+
+button{
+    width: 40%;
+   font-size: large;
+}
+select{
+    font-size: medium;
+}
+option{
+    font-size: medium;
+}
+      .imgFooter{
+        width: 25%;
+        margin-right: 2vh;
+            }
 }
